@@ -11,9 +11,9 @@
 
     <?php
     // データベース接続
-    $dsn = 'mysql:dbname=rosary_voteappli;host=mysql57.rosary.sakura.ne.jp;charset=utf8';
-    $user = 'rosary';
-    $password = 'daisuke1011';
+    $dsn = '***';
+    $user = '***';
+    $password = '***';
 
     try {
         $dbh = new PDO($dsn, $user, $password);
